@@ -19,12 +19,22 @@
     border-radius: 5px;
     height: 40px;
     display: flex;
+    align-items: center;
+    padding: 2px; 
 }
-.google-btn picture{
-    width: 30px;
-    height: 30px;
-    background-color: white;
+.google-btn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
 
+.google-btn picture{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .google-btn span{
@@ -32,4 +42,23 @@
     font-weight: 500;
     padding: 15px;
 
+}
+.botones{
+    align-self: flex-start; /*Afecto solo a este elemento el resto no cuando son flex*/
+    display: flex;
+    gap: 20px;
+}
+.google-btn picture img{
+    width: 100%;
+}
+.twitter-btn{
+    color: #ccc;
+    background-color: #eee;
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.twitter-btn:hover{
+    background-color: #ddd;
 }
