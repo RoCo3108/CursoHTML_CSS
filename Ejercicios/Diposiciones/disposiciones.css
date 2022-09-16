@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.galeria{
+    display: flexbox;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.imagen1{
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+}
+
+.imagen1:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}

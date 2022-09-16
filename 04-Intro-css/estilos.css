@@ -1,0 +1,30 @@
+h1{
+
+    color: blue;
+    font-size: 44px;
+}
+/*Estoy Probando Colores y fuentes */
+p{
+    color: rgb(165, 108, 42);/*Color de la letra*/
+    font-size: 32px; /* Tamaño de la letra*/
+    
+}
+
+.encabezado{   /*selector de Clase*/
+    color: red;
+    text-transform: uppercase; /* Cambia el contenido todo a Mayusculas*/
+}
+
+#primera-noticia{   /*Selector de ID*/
+
+    color: chartreuse;
+}
+
+*.warning{  /*Le da Formato a todos los elementos de la pagina*/ 
+    color: rgb(248, 0, 0);
+}
+
+.Autor, .fecha, .ciudad, h1, #primera-noticia{
+
+    text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+/*(1,0,0)  ->  ID*/
+/*(0,1,0)  ->  CLASE*/
+/*(0,0,1)  -> ETIQUETA*/
+/*(0,0,0)  ->POR DEFECTO*/
+/*estilo inline: seria el cuarto nivel de especificidad*/
+/*el Quinto Nivel de especificidad y le gana a todos es el
+atributo "!important"*/
+
+#h1-id{
+    color: black;
+}
+
+h1#h1-id.h1-clase{
+    color:aquamarine;
+}
+.h1-clase{
+    color: yellowgreen;
+}
+
+h1{
+    color: blue !important;  /*Evitar utilizar el importante*/
+}
+
+p{
+    color: red;
+}

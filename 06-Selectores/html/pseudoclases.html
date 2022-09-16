@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoClase</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .hover{
+            text-align: justify;
+            padding: 10PX;
+            width: 300px;
+            height: 100px;
+            background-color: coral;
+        }
+        .hover:hover{ /* Se activa en cuanto el raton pasa sobre el elemento*/
+            background-color: aqua;
+        } 
+        .Listado{
+            padding: 15px;
+            background-color: aquamarine;
+        }  
+        .Listado p:first-child{
+            color: white;
+        }
+        a:link{ /* el color establecido cuando no se ha visitado*/
+            color: deeppink;
+        }
+        a:visited{/* cambia de color cuando se ha visitado el sitio*/
+            color: crimson;
+        }
+        a:hover{/*Cuando estoy sobre el elemento cambia de color*/
+            color: pink;
+        }
+        a:active{  /*Cuando presiono el enlance se pone del color seleccionado*/
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate cum consectetur, autem architecto ipsum repudiandae. Possimus expedita earum vel repellendus?</p>
+    </div>
+    <div class="Listado">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Google</a>
+        <a href="http://marca.com" target="_blank">Marca</a>
+    </div>
+    <!-- target="_blank" : Permite abrir otra ventana al darle clic al enlance -->
+</body>
+</html>

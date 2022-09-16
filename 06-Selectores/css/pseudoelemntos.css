@@ -1,0 +1,53 @@
+.contenedor{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+
+}
+
+div{
+    background-color: blue;
+}
+span.frase{
+    font-style: italic;
+}
+
+span.frase::before{
+    content: '<<';
+    font-size: xx-small;
+}
+span.frase::after{
+    content: '>>';
+    font-size: xx-small;
+}
+.Libro{
+    background-color: bisque;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Libro p::first-letter{
+    font-size: xx-large;
+}
+.Libro p::first-line{
+    color: white;
+}
+.Libro p::selection{
+    background-color: chocolate;
+    color: lime;
+}
+
+.nombre::placeholder{
+    color: blue;
+
+}
+.nombre{
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.Listado  li::marker { /*Accedo con marker a cambiar los puntos de la lista cambiandolos de color*/
+    color: red;
+}
+

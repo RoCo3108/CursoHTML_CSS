@@ -1,0 +1,10 @@
+.p-contenedor{
+    color: chartreuse;
+}
+
+section.main .contenedor p{
+    color: rgb(36, 168, 229);
+}
+.contenedor #bt-contenedor{
+    background-color: yellow;
+}
