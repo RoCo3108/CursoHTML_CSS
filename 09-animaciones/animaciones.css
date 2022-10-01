@@ -1,0 +1,52 @@
+.padre{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+}
+
+.hijo{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(214, 214, 237);
+    /* transition: transform 1s ease-in ; */
+    animation: translacion 4s ease-in infinite forwards alternate;
+   
+}
+.padre:hover .hijo{
+    /* transform: translateX(100%);
+    background-color: blueviolet; */
+    /* animation: translacion 4s ease-in infinite forwards alternate; Podemos poner caulquier nombre al valor */
+     animation-play-state: paused;
+}
+
+@keyframes translacion{  /*Fotogramas*/
+    0%{    /*el fotograma se trabaja en porcentajes*/
+        background-color: beige;
+        transform: translateX(0%) translateY(0%);
+    }
+  
+    25%{
+        background-color: chocolate;
+        transform: translateX(100%) translateY(0%);
+    }
+    50%{
+        background-color: chocolate;
+        transform: translateX(100%) translateY(100%);
+    }
+    75%{
+        background-color: red;
+        transform:  translateX(0%) translateY(100%);
+    }
+    100%{    /*el fotograma se trabaja en porcentajes*/
+        background-color: red;
+        transform: translateX(0%)  translateY(0%);
+    }
+
+
+}
+h2{
+   text-align: center;
+   padding: 25%;
+
+}
+
