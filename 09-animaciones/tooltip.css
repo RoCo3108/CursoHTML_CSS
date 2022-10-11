@@ -57,9 +57,9 @@ body{
     left: 50%;
     transform: translateX(-50%);
 }
-.tutorial{
-
-     /* border: solid  10px transparent;
+.triangulo{
+    /*Este Codigo sirve para hacer Triangulos*/
+   /* border: solid  10px transparent;
     border-bottom-color: #333;
     border-right-color: yellowgreen;
     border-bottom-color:blue ;*/
