@@ -1,0 +1,44 @@
+// Funciones con cadenas de texto
+@use "sass:string";
+@use "sass:math";
+@use "sass:list";
+
+@debug "Hola";
+@debug string.index("Helvetica Neue", "Neue");
+
+$string: "Helvetica";
+$newString: string.insert($string," Bold", 10);
+
+@debug $newString;
+@debug string.length($newString);
+@debug str-length($newString);
+
+@debug string.slice("Helvetica Neue",4,9);
+
+@debug string.to-upper-case($string);
+
+// Funciones con numeros
+
+@debug math.$e;
+@debug math.$pi;
+
+
+@debug math.ceil(5.9);
+@debug math.clamp(0, 25, 10);
+@debug math.floor(4.6);
+@debug math.max(52, 65, 87, 695,5,875); 
+@debug math.min(52, 65, 87, 695,5,875); 
+@debug math.abs(65);
+@debug math.pow(3, 3);
+@debug math.sqrt(5);
+
+// Funciones con Listas
+
+$lista1: 10px, 10px, 0px, 15px;
+@debug $lista1;
+@debug list.append($lista1, 25p, space);
+
+
+
+
+

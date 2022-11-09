@@ -1,3 +1,5 @@
+@use "mixins";
+
 body {
     padding: 0;
     margin: 0;
@@ -5,23 +7,23 @@ body {
 
 .container {
     width: 100%;
-    background-color: azure;
+    background-color: rgb(17, 71, 71);
     min-height: 100vh;
     padding: 0.5rem;
 }
 
 h1 {
     margin: 0;
-    @include formato-texto(#da0808);
+    @include mixins.formato-texto(#d4d4d4);
 }
 
 p {
-    @include formato-texto(#666666);
+    @include mixins.formato-texto(#08fc9f6b);
 }
 
 .listado {
     width: 10rem;
-    background-color: azure;
+    background-color: rgb(18, 209, 209);
     padding: 0.5rem;
 
     ul {
@@ -31,7 +33,7 @@ p {
             list-style: none;
 
             &:hover {
-                color: rgb(9, 36, 238);
+                color: blueviolet;
             }
         }
     }

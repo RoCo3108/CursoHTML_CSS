@@ -1,7 +1,16 @@
 // Componentes
-@import "sass/componentes";
+@use  "sass/componentes";
 //Estilos
-@import "sass/estilos";
+@use  "sass/estilos";
 
 //Mixins sirve para reutilizar codigo podemos darle argumentos
-@import "sass/mixins";
+@use  "sass/mixins";        
+
+//Podemos Tener aqui las paginas
+//Pagina principal
+//Pagina de contacto
+//pagina aviso legal
+
+//otros
+
+@use "sass/builtin"
